@@ -96,6 +96,11 @@ public class Sudoku {
 		return board;
 	}
 	
+	public static int[][] game_play_2(int[][] board, int x, int y){ // game play 잘못된 접근일 경우 잘못된 위치라고 말하고 보드 수정안하고 그대로 리턴
+		board[y-1][x-1] = 0;
+		return board;
+	}
+	
 	public static void printing_board(int[][] board) {// 보드 프린트
 		int count = 0;
 		System.out.println("┏━━━┳━━━┯━━━┯━━━┳━━━┯━━━┯━━━┳━━━┯━━━┯━━━┓");
@@ -155,18 +160,25 @@ public class Sudoku {
 			int x = scan.nextInt();
 			int y = scan.nextInt();
 			int answer = scan.nextInt();
+			board = game_play(board,x,y,answer);
 			if(makeboard.check(board, answerboard, x, y)==true) {
+				board = game_play_2(board,x,y);
 				false_check--;
 				System.out.println("sorry you have "+false_check+" chance");
 			}
 			else {
-				board = game_play(board,x,y,answer);
 				printing_board(board);
 				zero_sum = makeboard.zerosum(board);
 			}
 		}while(zero_sum != 0 && false_check!=0); //게임 진행, 제로섬이 0이되면 게임 종료
 		
-		System.out.println("Tanks you");//game end
+		if(zero_sum == 0) {
+			System.out.println("your win!your play time is ~~");//game end
+		}
+		if(false_check == 0) {
+			System.out.println("your lose");
+		}
+		
 	}
 	
 }
