@@ -102,6 +102,8 @@ public class Sudoku {
 	}
 	
 	public static void printing_board(int[][] board) {// 보드 프린트
+		long start = System.currentTimeMillis();
+
 		int count = 0;
 		System.out.println("┏━━━┳━━━┯━━━┯━━━┳━━━┯━━━┯━━━┳━━━┯━━━┯━━━┓");
 		System.out.println("┃   ┃ "+1+" │ "+2+" │ "+3+" ┃ "+4+" │ "+5+" │ "+6+" ┃ "+7+" │ "+8+" │ "+9+" ┃");
@@ -138,6 +140,8 @@ public class Sudoku {
 	}
 	
 	public static void main(String[] args) {
+		long start = System.currentTimeMillis();
+
 		Scanner scan = new Scanner(System.in);
 		System.out.print("level input (1==easy, 2==hard) :");//게임 시작시 난이도 묻기
 		int level = scan.nextInt();//입력(나중에 예외처리 진행 예정)
@@ -172,15 +176,15 @@ public class Sudoku {
 			}
 		}while(zero_sum != 0 && false_check!=0); //게임 진행, 제로섬이 0이되면 게임 종료
 		
+		long end = System.currentTimeMillis();
+		
 		if(zero_sum == 0) {
-			System.out.println("your win!your play time is ~~");//game end
+			System.out.println("your win!your play time is "+(end-start)/1000.0);//game end
 		}
 		if(false_check == 0) {
 			System.out.println("your lose");
 		}
-		
 	}
-	
 }
 
 
