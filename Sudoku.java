@@ -2,6 +2,11 @@ package JavaProject_Sudoku;
 
 import java.util.Random;
 import java.util.Scanner;
+import java.io.BufferedWriter;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.FileWriter;
+import java.io.IOException;
 
 public class Sudoku {
 	public int[][] Board() { // board 기본값 설정+배열 랜덤설정후 board return
@@ -96,13 +101,12 @@ public class Sudoku {
 		return board;
 	}
 	
-	public static int[][] game_play_2(int[][] board, int x, int y){ // game play 잘못된 접근일 경우 잘못된 위치라고 말하고 보드 수정안하고 그대로 리턴
+	public static int[][] game_play_2(int[][] board, int x, int y){ // 틀렸을때 다시 0으로 수정
 		board[y-1][x-1] = 0;
 		return board;
 	}
 	
 	public static void printing_board(int[][] board) {// 보드 프린트
-		long start = System.currentTimeMillis();
 
 		int count = 0;
 		System.out.println("┏━━━┳━━━┯━━━┯━━━┳━━━┯━━━┯━━━┳━━━┯━━━┯━━━┓");
@@ -139,7 +143,14 @@ public class Sudoku {
 		return sum;
 	}
 	
-	public static void main(String[] args) {
+	public static void FileWrite(String username, double time) throws IOException {//데이터 입력 아직 미완성
+        BufferedWriter writer = new BufferedWriter(new FileWriter("/Users/gangdongho/eclipse-workspace/java_test/src/JavaProject_Sudoku/data.txt")); 
+        writer.write(username +" : "+ time+"\n"); 
+        writer.close();
+
+	}
+	
+	public static void main(String[] args) throws IOException {
 		long start = System.currentTimeMillis();
 
 		Scanner scan = new Scanner(System.in);
@@ -178,8 +189,16 @@ public class Sudoku {
 		
 		long end = System.currentTimeMillis();
 		
+		double time = (end-start)/1000.0;
+		
 		if(zero_sum == 0) {
-			System.out.println("your win!your play time is "+(end-start)/1000.0);//game end
+			System.out.println("your win!your play time is "+time);//game end
+//			System.out.print("input your name(ex:KDH) :");
+			String name = "KDH";
+			
+			FileWrite(name,time);
+			
+			System.out.println("Tanks you");
 		}
 		if(false_check == 0) {
 			System.out.println("your lose");
