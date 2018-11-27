@@ -80,7 +80,7 @@ public class Sudoku {
 	
 	public Boolean check(int[][] board, int[][] answer, int x, int y) {//정답 체크, 정답보드하고 같을경우 false, 다를경우 true 출력
 		boolean answer_1 = false;
-		if(board[x][y]!=answer[x][y]) {
+		if(board[y-1][x-1]!=answer[y-1][x-1]) {
 			answer_1 = true;
 		}
 		return answer_1;
