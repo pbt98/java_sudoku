@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<TabPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="480.0" prefWidth="720.0" tabClosingPolicy="UNAVAILABLE" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.171">
+  <tabs>
+    <Tab text="easy mode rank">
+      <content>
+        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+               <children>
+                  <ImageView fitHeight="480.0" fitWidth="450.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../img/ranking.jpg" />
+                     </image>
+                  </ImageView>
+                  <Text layoutX="80.0" layoutY="50.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PSB - 0m 47s">
+                     <font>
+                        <Font size="35.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="80.0" layoutY="125.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PSB - 0m 59s">
+                     <font>
+                        <Font size="35.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="80.0" layoutY="200.0" strokeType="OUTSIDE" strokeWidth="0.0" text="KDH - 1m 5s">
+                     <font>
+                        <Font size="35.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="80.0" layoutY="275.0" strokeType="OUTSIDE" strokeWidth="0.0" text="KDH - 1m 22s">
+                     <font>
+                        <Font size="35.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="80.0" layoutY="350.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PSB - 1m 47s">
+                     <font>
+                        <Font size="35.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="80.0" layoutY="425.0" strokeType="OUTSIDE" strokeWidth="0.0" text="KDH - 1m 50s">
+                     <font>
+                        <Font size="35.0" />
+                     </font>
+                  </Text>
+                  <ImageView fitHeight="240.0" fitWidth="240.0" layoutX="460.0" layoutY="120.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../img/rank2.jpg" />
+                     </image>
+                  </ImageView>
+               </children></AnchorPane>
+      </content>
+    </Tab>
+    <Tab text="hard mode rank">
+      <content>
+        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+               <children>
+                  <ImageView fitHeight="480.0" fitWidth="450.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../img/ranking.jpg" />
+                     </image>
+                  </ImageView>
+                  <Text layoutX="80.0" layoutY="50.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PSB - 1m 47s">
+                     <font>
+                        <Font size="35.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="80.0" layoutY="125.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PSB - 1m 59s">
+                     <font>
+                        <Font size="35.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="80.0" layoutY="200.0" strokeType="OUTSIDE" strokeWidth="0.0" text="KDH - 2m 5s">
+                     <font>
+                        <Font size="35.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="80.0" layoutY="275.0" strokeType="OUTSIDE" strokeWidth="0.0" text="KDH - 2m 22s">
+                     <font>
+                        <Font size="35.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="80.0" layoutY="350.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PSB - 2m 47s">
+                     <font>
+                        <Font size="35.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="80.0" layoutY="425.0" strokeType="OUTSIDE" strokeWidth="0.0" text="KDH - 3m 50s">
+                     <font>
+                        <Font size="35.0" />
+                     </font>
+                  </Text>
+                  <ImageView fitHeight="240.0" fitWidth="240.0" layoutX="460.0" layoutY="120.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../img/rank2.jpg" />
+                     </image>
+                  </ImageView>
+               </children></AnchorPane>
+      </content>
+    </Tab>
+  </tabs>
+</TabPane>
