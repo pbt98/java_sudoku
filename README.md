@@ -5,8 +5,8 @@ JavaFX Sudoku
 
 >스도쿠 제작, javafx 사용
 >>기능
->>>    1 랭킹(시간측정)
->>>    2 난이도 easy or hard 
->>>    3 3회 오답시 game over
->>>    4 only Button play
+>>>+랭킹(시간측정)
+>>>+난이도 easy or hard 
+>>>+3회 오답시 game over
+>>>+only Button play
 
