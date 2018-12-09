@@ -99,5 +99,6 @@
       <TextField alignment="CENTER" layoutX="317.5" layoutY="418.5" prefHeight="43.0" prefWidth="43.0" />
       <TextField alignment="CENTER" layoutX="365.5" layoutY="418.5" prefHeight="43.0" prefWidth="43.0" />
       <TextField alignment="CENTER" layoutX="413.5" layoutY="418.5" prefHeight="43.0" prefWidth="43.0" />
+      <Button layoutX="646.0" layoutY="31.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" text="EXIT" />
    </children>
 </Pane>
