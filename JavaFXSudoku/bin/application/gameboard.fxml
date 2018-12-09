@@ -7,17 +7,17 @@
 
 <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="480.0" prefWidth="720.0" styleClass="base_pane" stylesheets="@application.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controller">
    <children>
-      <Button fx:id="button_one" layoutX="528.0" layoutY="156.0" mnemonicParsing="false" onMouseClicked="#buttonOnePressed" prefHeight="50.0" prefWidth="50.0" text="1" />
-      <Button fx:id="button_two" layoutX="587.0" layoutY="156.0" mnemonicParsing="false" onMouseClicked="#buttonTwoPressed" prefHeight="50.0" prefWidth="50.0" text="2" />
-      <Button fx:id="button_three" layoutX="646.0" layoutY="156.0" mnemonicParsing="false" onMouseClicked="#buttonThreePressed" prefHeight="50.0" prefWidth="50.0" text="3" />
-      <Button fx:id="button_four" layoutX="528.0" layoutY="215.0" mnemonicParsing="false" onMouseClicked="#buttonFourPressed" prefHeight="50.0" prefWidth="50.0" text="4" />
-      <Button fx:id="button_five" layoutX="587.0" layoutY="215.0" mnemonicParsing="false" onMouseClicked="#buttonFivePressed" prefHeight="50.0" prefWidth="50.0" text="5" />
-      <Button fx:id="button_six" layoutX="646.0" layoutY="215.0" mnemonicParsing="false" onMouseClicked="#buttonSixPressed" prefHeight="50.0" prefWidth="50.0" text="6" />
-      <Button fx:id="button_seven" layoutX="528.0" layoutY="275.0" mnemonicParsing="false" onMouseClicked="#buttonSevenPressed" prefHeight="50.0" prefWidth="50.0" text="7" />
-      <Button fx:id="button_eight" layoutX="587.0" layoutY="275.0" mnemonicParsing="false" onMouseClicked="#buttonEightPressed" prefHeight="50.0" prefWidth="50.0" text="8" />
-      <Button fx:id="button_nine" layoutX="646.0" layoutY="275.0" mnemonicParsing="false" onMouseClicked="#buttonNinePressed" prefHeight="50.0" prefWidth="50.0" text="9" />
-      <Button fx:id="button_nine1" layoutX="528.0" layoutY="335.0" mnemonicParsing="false" onMouseClicked="#buttonNinePressed" prefHeight="50.0" prefWidth="168.0" text="delete" />
-      <Canvas fx:id="canvas" height="450.0" layoutX="14.0" layoutY="15.0" onMouseClicked="#canvasMouseClicked" width="450.0" />
+      <Button layoutX="528.0" layoutY="156.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" text="1" onAction="#operand" />
+	  <Button layoutX="587.0" layoutY="156.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" text="2" onAction="#operand" />
+	  <Button layoutX="646.0" layoutY="156.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" text="3" onAction="#operand" />
+	  <Button layoutX="528.0" layoutY="215.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" text="4" onAction="#operand" />
+	  <Button layoutX="587.0" layoutY="215.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" text="5" onAction="#operand" />
+	  <Button layoutX="646.0" layoutY="215.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" text="6" onAction="#operand" />
+	  <Button layoutX="528.0" layoutY="275.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" text="7" onAction="#operand" />
+	  <Button layoutX="587.0" layoutY="275.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" text="8" onAction="#operand" />
+	  <Button layoutX="646.0" layoutY="275.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" text="9" onAction="#operand" />
+	  <Button layoutX="528.0" layoutY="335.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="168.0" text="delete" />
+      <Canvas height="450.0" layoutX="14.0" layoutY="15.0"  width="450.0" />
       <TextField alignment="CENTER" layoutX="21.5" layoutY="22.5" prefHeight="43.0" prefWidth="43.0" />
       <TextField alignment="CENTER" layoutX="69.5" layoutY="22.5" prefHeight="43.0" prefWidth="43.0" />
       <TextField alignment="CENTER" layoutX="117.5" layoutY="22.5" prefHeight="43.0" prefWidth="43.0" />
@@ -99,5 +99,6 @@
       <TextField alignment="CENTER" layoutX="317.5" layoutY="418.5" prefHeight="43.0" prefWidth="43.0" />
       <TextField alignment="CENTER" layoutX="365.5" layoutY="418.5" prefHeight="43.0" prefWidth="43.0" />
       <TextField alignment="CENTER" layoutX="413.5" layoutY="418.5" prefHeight="43.0" prefWidth="43.0" />
+      <Button layoutX="646.0" layoutY="31.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" text="EXIT" />
    </children>
 </Pane>
