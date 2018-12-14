@@ -13,14 +13,9 @@ import javafx.scene.input.MouseEvent;
 import javafx.scene.paint.Color;
 import javafx.scene.text.Font;
 
-/* Controller needs to implement Initializable as JavaFX relies on the class having
- * an "initialize" method. It is going to execute the "initialize" method only AFTER the layout
- * file has been loaded.
- */
 public class Controller implements Initializable {
 
-	@FXML // The FXML loader is going to inject from the layout
-	Button button_one; // remember our fx:id's for our buttons? name should be the same in order for the FXMLLoader to find it.
+	@FXML Button button_one; //버튼 생성 1~9
 	@FXML Button button_two;
 	@FXML Button button_three;
 	@FXML Button button_four;
@@ -29,17 +24,15 @@ public class Controller implements Initializable {
 	@FXML Button button_seven;
 	@FXML Button button_eight;
 	@FXML Button button_nine;
-	@FXML Canvas canvas;
+	@FXML Canvas canvas; // 캔버스 생성, 여기에 판 만들고 게임할거임
 
-	// Make a new GameBoard declaration
 	GameBoard gameboard;
 
 	int player_selected_row;
 	int player_selected_col;
 
 	@Override
-	public void initialize(URL arg0, ResourceBundle arg1) {
-		//Create an instance of our gameboard
+	public void initialize(URL arg0, ResourceBundle arg1) {//이거슨 초기화임
 		gameboard = new GameBoard();
 		player_selected_row = 0;
 		player_selected_col = 0;
@@ -81,7 +74,7 @@ public class Controller implements Initializable {
 		// draw a strokeRoundRect using the same technique we used for drawing our board.
 		context.strokeRoundRect(player_selected_col * 50 + 2, player_selected_row * 50 + 2, 46, 46, 10, 10);
 		// draw the initial numbers from our GameBoard instance
-		int[][] initial = gameboard.getInitial();
+		int[][] initial = gameboard.getBoard();
 
 		// for loop is the same as before
 		for(int row = 0; row<9; row++) {
