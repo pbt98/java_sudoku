@@ -10,10 +10,13 @@ import javafx.stage.Stage;
 public class Main extends Application {
 	@Override
 	public void start(Stage primaryStage) throws Exception {
-		Parent root = FXMLLoader.load(getClass().getResource("gameboard.fxml"));
-		Scene scene = new Scene(root,720,480);
-		primaryStage.setTitle("Sudoku");
-		primaryStage.setScene(scene);
+		FXMLLoader loader = new FXMLLoader(getClass().getResource("title.fxml"));
+		Parent root = loader.load();
+		Controller MainController = loader.getController();
+		MainController.setPrimaryStage(primaryStage);
+
+		primaryStage.setScene(new Scene(root));
+		primaryStage.setTitle("JavaFX SUDOKU");
 		primaryStage.show();
 	}
 

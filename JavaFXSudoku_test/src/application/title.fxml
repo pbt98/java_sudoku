@@ -11,16 +11,16 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="480.0" prefWidth="720.0" styleClass="base_pane" stylesheets="@../JavaFXSudoku/src/application/application.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controller">
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="480.0" prefWidth="720.0" styleClass="base_pane" stylesheets="@application.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controller">
    <children>
       <ImageView fitWidth="720.0" layoutY="38.4" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../img/title.jpg" />
          </image>
       </ImageView>
-      <Button contentDisplay="RIGHT" layoutX="330.0" layoutY="170.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="60.0" text="easy" textAlignment="CENTER" textFill="#0037ff" />
-      <Button layoutX="330.0" layoutY="260.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="60.0" text="hard" textFill="RED" />
-      <Button layoutX="330.0" layoutY="350.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="60.0" text="rank" textFill="#d700ff" />
+      <Button fx:id="easymode" contentDisplay="RIGHT" layoutX="330.0" layoutY="170.0" mnemonicParsing="false" onMouseClicked="#easymodePressed" prefHeight="50.0" prefWidth="60.0" text="easy" textAlignment="CENTER" textFill="#0037ff" />
+      <Button fx:id="hardmode" layoutX="330.0" layoutY="260.0" mnemonicParsing="false" onMouseClicked="#hardmodePressed" prefHeight="50.0" prefWidth="60.0" text="hard" textFill="RED" />
+      <Button fx:id="userrank" layoutX="330.0" layoutY="350.0" mnemonicParsing="false" onMouseClicked="#userrankPressed" prefHeight="50.0" prefWidth="60.0" text="rank" textFill="#d700ff" />
       <Text layoutX="270.0" layoutY="100.0" stroke="BLACK" strokeType="OUTSIDE" strokeWidth="0.0" text="SUDOKU" textAlignment="CENTER" wrappingWidth="180.0">
          <font>
             <Font size="40.0" />
