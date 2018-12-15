@@ -110,8 +110,10 @@ public class GameBoard {
 		}
 	}
 
-	public boolean checkForSuccessGeneral() {//게임성공 실패 판별기
+	public boolean checkALL() {
 		int[][] truefalse = new int[9][9];
+		int sum = 0;
+		int sum2 = 0;
 		for(int i=0; i<81; i++) {
 			if(board[i/9][i%9]!=0) {
 				truefalse[i/9][i%9] = board[i/9][i%9];
@@ -120,24 +122,29 @@ public class GameBoard {
 				truefalse[i/9][i%9] = player[i/9][i%9];
 			}
 		}
+
 		for(int j=0; j<81; j++) {
-			int sum = 0;
+			if(j%9 == 0) sum = 0;
 			sum += truefalse[j/9][j%9];
-			if(sum!=45) {return false;}
+			sum2 += 1;
+			if(sum!=45 && sum2%9 == 0) {return false;}
 		}
 
+		sum2 = 0;
+
 		for(int k=0; k<81; k++) {
-			int sum = 0;
+			if(k%9 == 0)sum = 0;
 			sum += truefalse[k%9][k/9];
-			if(sum!=45) {return false;}
+			sum2 += 1;
+			if(sum!=45 && sum2%9 == 0) {return false;}
 		}
 
 		for (int row=0; row<9; row+=3) {
 			for(int col=0; col<9; col+=3) {
-				int sum = 0;
+				sum = 0;
 				for (int row1=0; row1<3; row1++) {
 					for (int col1=0; col1<3; col1++) {
-						sum += truefalse[row1+row][col1+col];
+						sum += truefalse[row1 + row][col1 + col];
 					}
 				}
 				if(sum!=45) {return false;}

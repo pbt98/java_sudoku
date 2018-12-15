@@ -79,7 +79,7 @@ public class MainController implements Initializable {
 				context.fillText(player[i/9][i%9] + "", x, y);
 			}
 		}
-		if(gameboard.checkForSuccessGeneral() == true) {
+		if(gameboard.checkALL() == true) {
 			context.clearRect(0, 0, 450, 450);
 			context.setFill(Color.GREEN);
 			context.setFont(new Font(36));
