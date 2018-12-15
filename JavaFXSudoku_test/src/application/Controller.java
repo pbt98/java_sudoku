@@ -59,7 +59,7 @@ public class Controller implements Initializable {
 		dialog.initOwner(primaryStage);
 		dialog.setTitle("hardmode");
 
-		Parent parent = FXMLLoader.load(getClass().getResource("gameboard.fxml"));
+		Parent parent = FXMLLoader.load(getClass().getResource("gameboardhard.fxml"));
 		Scene scene = new Scene(parent);
 
 		dialog.setScene(scene);

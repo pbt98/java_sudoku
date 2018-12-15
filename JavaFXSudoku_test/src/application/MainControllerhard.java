@@ -13,7 +13,7 @@ import javafx.scene.input.MouseEvent;
 import javafx.scene.paint.Color;
 import javafx.scene.text.Font;
 
-public class MainController implements Initializable {
+public class MainControllerhard implements Initializable {
 
 	@FXML Button button_one;
 	@FXML Button button_two;
@@ -26,14 +26,14 @@ public class MainController implements Initializable {
 	@FXML Button button_nine;
 	@FXML Canvas canvas;
 
-	GameBoard gameboard;
+	GameBoardhard gameboard;
 
 	int select_row;
 	int select_col;
 
 	@Override
 	public void initialize(URL arg0, ResourceBundle arg1) {
-		gameboard = new GameBoard();
+		gameboard = new GameBoardhard();
 		select_row = 0;
 		select_col = 0;
 		GraphicsContext context = canvas.getGraphicsContext2D();
@@ -41,7 +41,7 @@ public class MainController implements Initializable {
 	}
 
 	public void drawOnCanvas(GraphicsContext context) {
-//		int[][] ans = gameboard.getAnswer();
+//		int[][] answer = gameboard.getAnswer();
 		context.clearRect(0, 0, 450, 450);
 		for(int i=0; i<81; i++) {
 			int y = (i/9) * 50 + 2;
@@ -83,7 +83,7 @@ public class MainController implements Initializable {
 			context.clearRect(0, 0, 450, 450);
 			context.setFill(Color.GREEN);
 			context.setFont(new Font(36));
-			context.fillText("EASY CLEAR!", 150, 250);
+			context.fillText("HARD CLEAR!", 150, 250);
 		}
 	}
 	public void canvasMouseClicked() {
