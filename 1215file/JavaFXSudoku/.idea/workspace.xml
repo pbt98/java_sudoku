@@ -4,41 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/src/application/MainController.java" line="20" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="82e83d4a-6543-4ca8-8e19-ef8602e704b1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/application/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/application/Controller.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/application/GameBoard.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/application/GameBoard.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/application/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/application/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/application/MainController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/application/MainController$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/application/MainController.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/application/MainController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/application/Model.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/application/Model.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/application/RankController.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/application/RankController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/application/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/MainController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JavaFXSudoku/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../JavaFXSudoku/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JavaFXSudoku/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../JavaFXSudoku/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JavaFXSudoku/JavaFXSudoku.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../JavaFXSudoku/JavaFXSudoku.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JavaFXSudoku/bin/application/Controller.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JavaFXSudoku/bin/application/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JavaFXSudoku/bin/application/Model.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JavaFXSudoku_test 1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../JavaFXSudoku_test 1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JavaFXSudoku_test 1/bin/application/Controller$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JavaFXSudoku_test 1/bin/application/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../JavaFXSudoku_test 1/bin/application/Controller.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JavaFXSudoku_test 1/bin/application/GameBoard.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../JavaFXSudoku_test 1/bin/application/GameBoard.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JavaFXSudoku_test 1/bin/application/GameBoardhard.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../JavaFXSudoku_test 1/bin/application/GameBoardhard.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JavaFXSudoku_test 1/bin/application/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../JavaFXSudoku_test 1/bin/application/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JavaFXSudoku_test 1/bin/application/MainController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../JavaFXSudoku_test 1/bin/application/MainController$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JavaFXSudoku_test 1/bin/application/MainController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../JavaFXSudoku_test 1/bin/application/MainController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JavaFXSudoku_test 1/bin/application/MainControllerhard$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../JavaFXSudoku_test 1/bin/application/MainControllerhard$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JavaFXSudoku_test 1/bin/application/MainControllerhard.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../JavaFXSudoku_test 1/bin/application/MainControllerhard.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JavaFXSudoku_test 1/bin/application/Model.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../JavaFXSudoku_test 1/bin/application/Model.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JavaFXSudoku_test 1/bin/application/RankController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../JavaFXSudoku_test 1/bin/application/RankController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JavaFXSudoku_test 1/bin/application/gameboard.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../../JavaFXSudoku_test 1/bin/application/gameboard.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JavaFXSudoku_test 1/bin/application/gameboardhard.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../../JavaFXSudoku_test 1/bin/application/gameboardhard.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JavaFXSudoku_test 1/bin/application/rank.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../../JavaFXSudoku_test 1/bin/application/rank.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JavaFXSudoku_test 1/src/application/RankController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../JavaFXSudoku_test 1/src/application/RankController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JavaFXSudoku_test 1/src/application/rank.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../../JavaFXSudoku_test 1/src/application/rank.fxml" afterDir="false" />
-    </list>
+    <list default="true" id="82e83d4a-6543-4ca8-8e19-ef8602e704b1" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -71,7 +37,7 @@
     <session id="1778888770">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.23" value="1" />
@@ -96,7 +62,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/application/Controller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
+            <state relative-caret-position="291">
               <caret line="69" column="36" lean-forward="true" selection-start-line="69" selection-start-column="36" selection-end-line="69" selection-end-column="36" />
             </state>
           </provider>
@@ -201,7 +167,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544941270395" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544941273764" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -252,12 +218,12 @@
       <workItem from="1544889538401" duration="581000" />
       <workItem from="1544892142918" duration="381000" />
       <workItem from="1544939677236" duration="839000" />
-      <workItem from="1544940867393" duration="394000" />
+      <workItem from="1544940867393" duration="473000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2884000" />
+    <option name="totallyTimeSpent" value="2963000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -272,7 +238,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.20992908" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.20992908" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -339,7 +305,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/application/Controller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
+        <state relative-caret-position="291">
           <caret line="69" column="36" lean-forward="true" selection-start-line="69" selection-start-column="36" selection-end-line="69" selection-end-column="36" />
         </state>
       </provider>

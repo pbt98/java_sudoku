@@ -1,6 +1,11 @@
 package application;
 
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.io.PrintWriter;
 import java.net.URL;
+import java.util.Optional;
 import java.util.ResourceBundle;
 
 import javafx.event.EventHandler;
@@ -9,9 +14,12 @@ import javafx.fxml.Initializable;
 import javafx.scene.canvas.Canvas;
 import javafx.scene.canvas.GraphicsContext;
 import javafx.scene.control.Button;
+import javafx.scene.control.TextInputDialog;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.paint.Color;
 import javafx.scene.text.Font;
+
+import static com.sun.javafx.application.PlatformImpl.exit;
 
 public class MainController implements Initializable {
 
@@ -30,6 +38,7 @@ public class MainController implements Initializable {
 
 	int select_row;
 	int select_col;//player select (x,y)
+	long start = System.currentTimeMillis();
 
 	@Override
 	public void initialize(URL arg0, ResourceBundle arg1) {
@@ -39,6 +48,27 @@ public class MainController implements Initializable {
 		GraphicsContext picture = canvas.getGraphicsContext2D();
 		drawCanvas(picture);
 	}
+
+	public void Data_Save(double time, String name) {
+		try {
+			File file = new File("datae.txt");
+			boolean isExists = file.exists();
+
+			if (isExists) {
+				PrintWriter writer = new PrintWriter(new FileWriter("datae.txt", true));
+				writer.println(time + ":" + name);
+				writer.close();
+			} else {
+				PrintWriter writer = new PrintWriter(new FileWriter("datae.txt"));
+				writer.println(time + ":" + name);
+				writer.close();
+			}
+		} catch(IOException e) {
+			exit();
+		}
+	}
+
+
 
 	public void drawCanvas(GraphicsContext picture) {//game start to drawing
 		picture.clearRect(0, 0, 450, 450);//drawing panel reset
@@ -84,7 +114,16 @@ public class MainController implements Initializable {
 			picture.setFill(Color.GREEN);
 			picture.setFont(new Font(36));
 			picture.fillText("EASY CLEAR!", 150, 250);
+			long end = System.currentTimeMillis();
+			double time = (end - start) / 1000.0;
+			TextInputDialog dialog = new TextInputDialog("");
+			dialog.setTitle("JavaFX Sudoku");
+			dialog.setHeaderText("You Won! Your running time is: "+ time);
+			dialog.setContentText("Please enter your name");
+			Optional<String> result = dialog.showAndWait();
+			result.ifPresent(name-> Data_Save(time, name));
 		}
+
 	}
 	public void MouseClicked() {//click
 		canvas.setOnMouseClicked(new EventHandler<MouseEvent>() {
