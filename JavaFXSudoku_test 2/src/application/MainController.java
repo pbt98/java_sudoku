@@ -87,7 +87,7 @@ public class MainController implements Initializable {
 			int x = (j%9)*50+20;
 			picture.setFill(Color.BLACK);
 			picture.setFont(new Font(20));
-			if(initial[i/9][i%9]!=0) {//if initial[i/9][i%9]==0 --> blank
+			if(initial[j/9][j%9]!=0) {//if initial[j/9][j%9]==0 --> blank
 				picture.fillText(initial[j/9][j%9] + "", x, y);
 			}
 		}
@@ -103,8 +103,8 @@ public class MainController implements Initializable {
 				picture.setFill(Color.RED);
 			}
 			picture.setFont(new Font(20));//font 20
-			if(player[k/9][k%9]!=0) {//if player[i/9][i%9]==0 --> blank
-				picture.fillText(player[i/9][i%9] + "", x, y);
+			if(player[k/9][k%9]!=0) {//if player[k/9][k%9]==0 --> blank
+				picture.fillText(player[k/9][k%9] + "", x, y);
 			}
 		}
 		if(gameboard.checkALL() == true) {//sudoku all clear, true --> game clear
