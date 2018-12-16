@@ -1,7 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="82e83d4a-6543-4ca8-8e19-ef8602e704b1" name="Default Changelist" comment="" />
+    <list default="true" id="82e83d4a-6543-4ca8-8e19-ef8602e704b1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../1215file/JavaFXSudoku/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1215file/JavaFXSudoku/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../1215file/JavaFXSudoku/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1215file/JavaFXSudoku/bin/application/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/../1215file/JavaFXSudoku/bin/application/Controller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1215file/JavaFXSudoku/bin/application/GameBoard.class" beforeDir="false" afterPath="$PROJECT_DIR$/../1215file/JavaFXSudoku/bin/application/GameBoard.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1215file/JavaFXSudoku/bin/application/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../1215file/JavaFXSudoku/bin/application/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1215file/JavaFXSudoku/bin/application/MainController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../1215file/JavaFXSudoku/bin/application/MainController$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1215file/JavaFXSudoku/bin/application/MainController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../1215file/JavaFXSudoku/bin/application/MainController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1215file/JavaFXSudoku/bin/application/Model.class" beforeDir="false" afterPath="$PROJECT_DIR$/../1215file/JavaFXSudoku/bin/application/Model.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1215file/JavaFXSudoku/bin/application/RankController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../1215file/JavaFXSudoku/bin/application/RankController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1215file/JavaFXSudoku/src/application/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../1215file/JavaFXSudoku/src/application/MainController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaFXSudoku/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaFXSudoku/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaFXSudoku/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaFXSudoku/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaFXSudoku/JavaFXSudoku.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaFXSudoku/JavaFXSudoku.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaFXSudoku/bin/application/Controller.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaFXSudoku/bin/application/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaFXSudoku/bin/application/Model.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/application/Controller$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/application/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/application/Controller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/application/GameBoard.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/application/GameBoard.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/application/GameBoardhard.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/application/GameBoardhard.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/application/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/application/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/application/MainController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/application/MainController$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/application/MainController.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/application/MainController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/application/MainControllerhard$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/application/MainControllerhard$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/application/MainControllerhard.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/application/MainControllerhard.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/application/Model.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/application/Model.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/application/RankController.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/application/RankController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/application/gameboard.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/bin/application/gameboard.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/application/gameboardhard.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/bin/application/gameboardhard.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/application/rank.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/bin/application/rank.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/application/RankController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/RankController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/application/rank.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/rank.fxml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,14 +65,35 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="1893060196">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.1" value="2" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="fxml" value="1" />
+          <entry key="java" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="1" />
+          <entry key="XML" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/application/Controller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-639">
-              <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+            <state relative-caret-position="-114">
+              <caret line="37" column="22" lean-forward="true" selection-start-line="37" selection-start-column="22" selection-end-line="37" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -47,19 +102,16 @@
         <entry file="file://$PROJECT_DIR$/src/application/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="228">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/application/RankController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="74" column="70" lean-forward="true" selection-start-line="74" selection-start-column="70" selection-end-line="74" selection-end-column="70" />
-              <folding>
-                <element signature="e#2158#2174#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="209">
+              <caret line="73" column="25" lean-forward="true" selection-start-line="73" selection-start-column="25" selection-end-line="73" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -67,8 +119,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/application/GameBoard.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            <state relative-caret-position="2508">
+              <caret line="132" column="32" lean-forward="true" selection-start-line="132" selection-start-column="32" selection-end-line="132" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -76,7 +128,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/application/MainController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="217">
+            <state relative-caret-position="171">
               <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -87,40 +139,50 @@
       </file>
     </leaf>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/application/RankController.java" />
+      </list>
+    </option>
+  </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="720" />
-    <option name="y" value="-22" />
-    <option name="width" value="977" />
-    <option name="height" value="1038" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="537" />
+    <option name="y" value="382" />
+    <option name="width" value="980" />
+    <option name="height" value="1040" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="JavaFXSudoku" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaFXSudoku_test" type="462c0819:PsiDirectoryNode" />
+              <item name="JavaFXSudoku_test 1" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JavaFXSudoku" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaFXSudoku_test" type="462c0819:PsiDirectoryNode" />
+              <item name="JavaFXSudoku_test 1" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JavaFXSudoku" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaFXSudoku_test" type="462c0819:PsiDirectoryNode" />
+              <item name="JavaFXSudoku_test 1" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="application" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -128,15 +190,24 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544807117207" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544941270318" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../1215file/JavaFXSudoku" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="application" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\박성빈\Desktop\SC2018\java_sudoku\JavaFXSudoku_test 1\src\application" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -181,44 +252,46 @@
       <option name="presentableId" value="Default" />
       <updated>1544806422225</updated>
       <workItem from="1544806428298" duration="689000" />
+      <workItem from="1544939995278" duration="4000" />
+      <workItem from="1544940522206" duration="734000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="689000" />
+    <option name="totallyTimeSpent" value="1427000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24966443" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25637585" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3286119" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2609929" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -228,9 +301,20 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/application/rank.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/application/RankController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="73" column="25" lean-forward="true" selection-start-line="73" selection-start-column="25" selection-end-line="73" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/application/MainController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
+        <state relative-caret-position="171">
           <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -240,38 +324,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/application/GameBoard.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        <state relative-caret-position="2508">
+          <caret line="132" column="32" lean-forward="true" selection-start-line="132" selection-start-column="32" selection-end-line="132" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/application/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/application/Controller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-639">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/application/rank.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-114" />
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/application/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/application/RankController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="74" column="70" lean-forward="true" selection-start-line="74" selection-start-column="70" selection-end-line="74" selection-end-column="70" />
-          <folding>
-            <element signature="e#2158#2174#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-114">
+          <caret line="37" column="22" lean-forward="true" selection-start-line="37" selection-start-column="22" selection-end-line="37" selection-end-column="22" />
         </state>
       </provider>
     </entry>
