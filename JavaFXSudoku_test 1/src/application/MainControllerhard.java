@@ -43,8 +43,8 @@ public class MainControllerhard implements Initializable {
 	public void drawCanvas(GraphicsContext picture) {//game start to drawing
 		picture.clearRect(0, 0, 450, 450);//drawing panel reset
 		for(int i=0; i<81; i++) {//white text area 9*9 reset
-			int y = (i/9)*50 + 2;
-			int x = (i%9)*50 + 2;
+			int y = (i/9)*50+2;
+			int x = (i%9)*50+2;
 			int width = 46;
 			picture.setFill(Color.WHITE);//white
 			picture.fillRoundRect(x, y, width, width, 10, 10);
@@ -55,8 +55,8 @@ public class MainControllerhard implements Initializable {
 
 		int[][] initial = gameboard.getBoard();//board call
 		for(int i=0; i<81; i++) {//board apply
-			int y = (i/9)*50 + 30;
-			int x = (i%9)*50 + 20;
+			int y = (i/9)*50+30;
+			int x = (i%9)*50+20;
 			picture.setFill(Color.BLACK);
 			picture.setFont(new Font(20));
 			if(initial[i/9][i%9]!=0) {//if initial[i/9][i%9]==0 --> blank
@@ -66,8 +66,8 @@ public class MainControllerhard implements Initializable {
 
 		int[][] player = gameboard.getPlayer();//player board call --> work during game
 		for(int i=0; i<81; i++) {
-			int y = (i/9)*50 + 30;
-			int x = (i%9)*50 + 20;
+			int y = (i/9)*50+30;
+			int x = (i%9)*50+20;
 			if(gameboard.checksum(i/9,i%9)){//gameboard.checksum true --> BLUE letter input
 				picture.setFill(Color.BLUE);
 			}
@@ -83,6 +83,10 @@ public class MainControllerhard implements Initializable {
 			picture.clearRect(0, 0, 450, 450);//re drawing
 			picture.setFill(Color.GREEN);
 			picture.setFont(new Font(36));
+
+			select_row = 0;
+			select_col = 0;
+
 			picture.fillText("HARD CLEAR!", 150, 250);
 		}
 	}
