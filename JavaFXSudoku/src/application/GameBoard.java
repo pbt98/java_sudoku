@@ -2,7 +2,7 @@ package application;
 
 import java.util.Random;
 
-public class GameBoardhard {
+public class GameBoard {
 
 	private int[][] defalte;//defalte
 	private int[][] board;//game board
@@ -10,7 +10,7 @@ public class GameBoardhard {
 	private int[][] answer = new int[9][9];//answer, checksum used
 	private int holes;
 
-	public GameBoardhard() {
+	public GameBoard() {
 		defalte = new int[][]//defalte board set
 		{
 			{5,4,3,9,2,1,8,7,6},
@@ -71,7 +71,7 @@ public class GameBoardhard {
 			answer[i/9][i%9] = board[i/9][i%9];
 		}
 
-		holes = 58;//hard
+		holes = 45;//easy
         while(holes>0) {
             int inp1 = random.nextInt(9);
             int inp2 = random.nextInt(9);
@@ -83,10 +83,8 @@ public class GameBoardhard {
 		player = new int[9][9];
 	}
 
-	public int[][] getDefalte() {return defalte;}
 	public int[][] getBoard() {return board;}
 	public int[][] getPlayer() {return player;}
-	public int[][] getAnswer() {return answer;}
 
 	public void Play(int val, int row, int col) {//playing game
 		if (board[row][col] == 0) {
@@ -150,4 +148,5 @@ public class GameBoardhard {
 		}
 		return true;
 	}
+
 }
