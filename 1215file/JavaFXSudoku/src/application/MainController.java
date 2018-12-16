@@ -46,6 +46,7 @@ public class MainController implements Initializable {
 	}
 
 	public void drawOnCanvas(GraphicsContext context) {
+		long start = System.currentTimeMillis();
 		context.clearRect(0, 0, 450, 450);
 		for(int row = 0; row<9; row++) {
 			for(int col = 0; col<9; col++) {
@@ -85,11 +86,14 @@ public class MainController implements Initializable {
 			}
 		}
 		if(gameboard.checkForSuccessGeneral() == true) {
+			long end = System.currentTimeMillis();
+			double time = (end - start) / 1000;
+
 			context.clearRect(0, 0, 450, 450);
 			context.setFill(Color.GREEN);
 			context.setFont(new Font(36));
 			context.fillText("SUCCESS!", 150, 250);
-				}
+		}
 	}
 	public void canvasMouseClicked() {
 		canvas.setOnMouseClicked(new EventHandler<MouseEvent>() {
