@@ -70,40 +70,40 @@ public class MainControllerhard implements Initializable {
 
 	public void drawCanvas(GraphicsContext picture) {//game start to drawing
 		picture.clearRect(0, 0, 450, 450);//drawing panel reset
+		int width = 46;
 		for(int i=0; i<81; i++) {//white text area 9*9 reset
-			int y = (i/9)*50 + 2;
-			int x = (i%9)*50 + 2;
-			int width = 46;
+			int y = (i/9)*50+2;
+			int x = (i%9)*50+2;
 			picture.setFill(Color.WHITE);//white
 			picture.fillRoundRect(x, y, width, width, 10, 10);
 		}
 		picture.setStroke(Color.BLUE);
 		picture.setLineWidth(3);
-		picture.strokeRoundRect(select_col*50+2, select_row*50+2, 46, 46, 10, 10);
+		picture.strokeRoundRect(select_col*50+2, select_row*50+2, width, width, 10, 10);
 
 		int[][] initial = gameboard.getBoard();//board call
-		for(int i=0; i<81; i++) {//board apply
-			int y = (i/9)*50 + 30;
-			int x = (i%9)*50 + 20;
+		for(int j=0; j<81; j++) {//board apply
+			int y = (j/9)*50+30;
+			int x = (j%9)*50+20;
 			picture.setFill(Color.BLACK);
 			picture.setFont(new Font(20));
 			if(initial[i/9][i%9]!=0) {//if initial[i/9][i%9]==0 --> blank
-				picture.fillText(initial[i/9][i%9]+"", x, y);
+				picture.fillText(initial[j/9][j%9] + "", x, y);
 			}
 		}
 
 		int[][] player = gameboard.getPlayer();//player board call --> work during game
-		for(int i=0; i<81; i++) {
-			int y = (i/9)*50 + 30;
-			int x = (i%9)*50 + 20;
-			if(gameboard.checksum(i/9,i%9)){//gameboard.checksum true --> BLUE letter input
+		for(int k=0; k<81; k++) {
+			int y = (k/9)*50+30;
+			int x = (k%9)*50+20;
+			if(gameboard.checksum(k/9,k%9)){//gameboard.checksum true --> BLUE letter input
 				picture.setFill(Color.BLUE);
 			}
 			else{//false --> RED letter input
 				picture.setFill(Color.RED);
 			}
 			picture.setFont(new Font(20));//font 20
-			if(player[i/9][i%9]!=0) {//if player[i/9][i%9]==0 --> blank
+			if(player[k/9][k%9]!=0) {//if player[i/9][i%9]==0 --> blank
 				picture.fillText(player[i/9][i%9] + "", x, y);
 			}
 		}
@@ -112,6 +112,8 @@ public class MainControllerhard implements Initializable {
 			picture.setFill(Color.GREEN);
 			picture.setFont(new Font(36));
 			picture.fillText("HARD CLEAR!", 150, 250);
+			select_col = 0;
+			select_row = 0;
 			long end = System.currentTimeMillis();
 			double time = (end - start) / 1000.0;
 			TextInputDialog dialog = new TextInputDialog("");

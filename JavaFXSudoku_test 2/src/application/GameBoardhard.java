@@ -71,7 +71,7 @@ public class GameBoardhard {
 			answer[i/9][i%9] = board[i/9][i%9];
 		}
 
-		holes = 3;//hard
+		holes = 58;//hard
         while(holes>0) {
             int inp1 = random.nextInt(9);
             int inp2 = random.nextInt(9);
