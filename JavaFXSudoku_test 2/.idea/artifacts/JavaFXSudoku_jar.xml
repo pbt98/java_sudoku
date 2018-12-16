@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="JavaFXSudoku:jar">
+    <output-path>$PROJECT_DIR$/classes/artifacts/JavaFXSudoku_jar</output-path>
+    <root id="archive" name="JavaFXSudoku.jar">
+      <element id="module-output" name="JavaFXSudoku" />
+    </root>
+  </artifact>
+</component>
