@@ -90,7 +90,7 @@ public class RankController implements Initializable {
                     moim[i].setText(v + " - " + k);
                     i++;
                 }
-
+                reader.close();
             } else {
                 System.out.println("Hard Ranking Data does not exist");
                 return;
@@ -118,7 +118,7 @@ public class RankController implements Initializable {
                     j++;
                     System.out.println(j);
                 }
-
+                reader_h.close();
             } else {
                 System.out.println("Ranking Data does not exist");
                 return;
