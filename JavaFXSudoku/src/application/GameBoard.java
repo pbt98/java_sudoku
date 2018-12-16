@@ -83,7 +83,6 @@ public class GameBoard {
 		player = new int[9][9];
 	}
 
-	public int[][] getDefalte() {return defalte;}
 	public int[][] getBoard() {return board;}
 	public int[][] getPlayer() {return player;}
 

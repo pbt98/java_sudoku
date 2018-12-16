@@ -83,10 +83,8 @@ public class GameBoardhard {
 		player = new int[9][9];
 	}
 
-	public int[][] getDefalte() {return defalte;}
 	public int[][] getBoard() {return board;}
 	public int[][] getPlayer() {return player;}
-	public int[][] getAnswer() {return answer;}
 
 	public void Play(int val, int row, int col) {//playing game
 		if (board[row][col] == 0) {
